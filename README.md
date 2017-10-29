@@ -33,6 +33,8 @@ background-color: rgba(0,0,0,1), width: calc(200px - 50px), overflow: hidden
 
 ## 2) diffrent grid variations
 
+Play with grid.
+
 ## 3) create dropdown from list
 
 ## 4) play with inline, float & flexbox
