@@ -33,7 +33,12 @@ background-color: rgba(0,0,0,1), width: calc(200px - 50px), overflow: hidden
 
 ## 2) diffrent grid variations
 
-Play with grid.
+Play with grid, learn flex.
+
+```
+display: flex;
+class:nth-child(n)
+```
 
 ## 3) create dropdown from list
 
