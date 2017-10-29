@@ -1,0 +1,85 @@
+html, body, div, h1, h2, p, main, header, footer, nav, ul, li, article, section {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url('background-image1.jpg');
+  background-size: cover;
+  background-repeat: none;
+  color: #0b4427;
+  font-family: arial;
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  width: 100%;
+}
+
+main {
+  height: calc(100% - 120px);
+}
+main nav {
+  background-color: rgba(39, 171, 186, 0.4);
+  height: 100%;
+  width: 80px;
+  float: left;
+}
+
+main nav li {
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  text-align: center;
+}
+  
+main nav li:hover {
+  background-color: rgba(255,255,255,0.6);
+}
+
+.main {
+  float: left;
+  width: calc(100% - 80px);
+}
+.article {
+  background-color: rgba(255,255,255, 0.3);
+  color: black;
+  height: 200px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.article h2 {
+  text-align: center;
+}
+
+.article p {
+  width: 90%;
+  margin: 5%;
+}
+
+footer {
+  background-color: #364920;
+  color: black;
+  font-size: 6pt;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  text-align: right;
+  width: 100%;
+}
+
+footer p {
+  margin-right: 30px;
+}
