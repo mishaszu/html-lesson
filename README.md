@@ -1,5 +1,14 @@
 # HTML & CSS lessos
 
+If you'd like to
+- Learn Basics of HTML & CSS.
+- Be able to create your own website.
+- Start your frontend career
+
+This repository is just for you.
+
+[Checkout wiki page to learn more](https://github.com/mishaszu/html-lesson/wiki)
+
 ## 1) create basic page skeleton
 - link styles
 - set background image
