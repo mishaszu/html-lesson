@@ -9,6 +9,9 @@ This repository is just for you.
 
 [Checkout wiki page to learn more](https://github.com/mishaszu/html-lesson/wiki)
 
+
+[All images come from unsplash](http://unsplash.com)
+
 ## 1) create basic page skeleton
 - link styles
 - set background image

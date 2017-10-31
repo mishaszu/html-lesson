@@ -1,0 +1,91 @@
+html, body, div, ul, li, h1, h2, p {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+}
+
+header {
+	font-family: 'LatoBold';
+  font-size: 33pt;
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+}
+
+main {
+  background-color: rgba(255,255,255, 0.4);
+  height: 30vh;
+  margin: auto;
+  width: 40%;
+}
+
+main section {
+  color: #3b1672;
+  font-family: 'Lato';
+  font-size: 40pt;
+  height: 240px;
+  line-height: 240px;
+  text-align: center;
+  width: 100%;
+}
+
+nav {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-wrap: no-wrap;
+}
+
+nav .dropdown {
+  font-family: "Lato";
+  font-size: 15pt;
+  cursor: pointer;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  width: 25%;
+}
+
+
+nav .dropdown:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+nav .dropdown .dropdown__content {
+  background-color: rgba(113, 128, 153, 0.9);
+  min-width: 150px;
+  position: absolute;
+  width: 10%;
+}
+
+.hide {
+  display: none;
+}
+
+nav .dropdown .dropdown__content a {
+  display: block;
+  width: 100%;
+}
+
+nav .dropdown .dropdown__content a:hover {
+  background-color: gray;
+}
+
+.arrow {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  height: 6px;
+  margin-top: 27px;
+  margin-left: 10px;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 6px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercise 7</title>
+    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ENJOY YOUR DROPDOWN</h1>
+    </header>
+    <main>
+      <nav>
+        <a class="dropdown">Home</a>
+        <div class="dropdown">
+          <div class="dropdown__btn">
+            Gallery
+            <span class="arrow"></span>
+          </div>
+          <div class="dropdown__content hide">
+            <a class="dropdown__content__link">Dogs</a>
+            <a class="dropdown__content__link">Ants</a>
+            <a class="dropdown__content__link">Birds</a>
+            <a class="dropdown__content__link">Sea</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <div class="dropdown__btn">
+            About
+            <span class="arrow"></span>
+          </div>
+          <div class="dropdown__content hide">
+            <a class="dropdown__content__link">Us</a>
+            <a class="dropdown__content__link">Our dogs</a>
+            <a class="dropdown__content__link">Our Ants</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <div class="dropdown__div">
+            Contact
+            <span class="arrow"></span>
+          </div>
+          <div class="dropdown__content hide">
+            <a class="dropdown__content__link">Kaya</a>
+            <a class="dropdown__content__link">Mike</a>
+            <a class="dropdown__content__link">Our dogs</a>
+          </div>
+        </div>
+      </nav>
+      <section>
+        <h2>Your Website</h2>
+      </section>
+    </main>
+    <script>
+      var dropdown1 = document.getElementsByClassName("dropdown")[1];
+      var dropdown2 = document.getElementsByClassName("dropdown")[2];
+      var dropdown3 = document.getElementsByClassName("dropdown")[3];
+
+      dropdown1.addEventListener("click", function() {
+        var list = document.getElementsByClassName("dropdown__content")[0];
+        list.classList.toggle('hide');
+      });
+      dropdown2.addEventListener("click", function() {
+        var list = document.getElementsByClassName("dropdown__content")[1];
+        list.classList.toggle('hide');
+      });
+      dropdown3.addEventListener("click", function() {
+        var list = document.getElementsByClassName("dropdown__content")[2];
+        list.classList.toggle('hide');
+      });
+    </script>
+  </body>
+</html>
